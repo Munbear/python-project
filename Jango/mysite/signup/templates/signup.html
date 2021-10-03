@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Django Toyproject</title>
+  </head>
+  <body>
+    <form>
+      {% csrf_token %}
+      <p>username</p>
+      <input type="text" name="username" />
+      <p>password</p>
+      <input type="password" name="password" />
+      <br />
+      <input type="password" name="confrim" />
+      <br />
+      <input type="submit" name="Register" />
+    </form>
+  </body>
+</html>
